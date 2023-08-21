@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Christmas.FourActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/sansita_italic"
+            android:gravity="center_horizontal"
+            android:text="Merry Christmas Wishes"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_above="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/sansita_italic"
+                android:text="1. I pray that you and your family be surrounded by the Spirit and filled with an overwhelming feeling of happiness and peace in this holiday season. May God bless you and your family more in this holiday season!
+\n2. Praying that you celebrate this Christmas season with hearts that are full of hope, love, and faith. Wishing that all the beautiful things be showered unto you this holiday season. May the Lord be with you! Merry Christmas!
+\n3. This season has become so special because God has given you the best gift anyone can ever give. Now that we are given the gift of eternal life and salvation, let us continue to do more for the Lord. Happy holidays!
+\n4. As you celebrate the Christmas season with your family, be assured that you are all included in my prayers. May the Lord bless you with more prosperous and beautiful years to come.
+\n5. Lift your hearts in praise to the Lord and feel him shower you with his kindness and love. Praying that you have a blessed and joyful Christmas celebration this year. God bless you!
+\n6. We have always been surrounded by God’s angels. Praying that you be enveloped in these angels’ wings and filled with warmth and bliss this holiday season. Merry Christmas!
+\n7. Since God has given us his only son, may we all be worthy and acceptant of his grace. Sending you love and light in this Christmas season.
+\n8. Christmas is a time for friends and family, but let us not forget to celebrate the birth of our savior as a family or as friends. Let us be grateful and thankful for the greatest gift we have ever been given.
+\n9. Let the Spirit of God fill your home with peace and serenity this holiday season. This will be a great time for you and your family to celebrate with God. Enjoy your holidays!
+\n10. I hope you celebrate your Christmas season with a grateful heart. May the Lord shower you with more blessings!
+\n11. Christmas is my favorite season because my savior is once again celebrating his birth. Let us celebrate together and enjoy the promises that God has made for us. Enjoy the holidays everyone!
+\n12. God has given us a gift that nobody can ever surpass. So as its receiver, we should make sure to receive it with open arms and be thankful at all times. May the love of the Lord envelope us with warmth, peace, and joy this holiday season.
+
+"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_above="@+id/rl1"
+        android:scaleType="fitXY"
+        android:src="@drawable/four_gift" />
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/native_ads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Christmas.ThreeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/sansita_italic"
+            android:gravity="center_horizontal"
+            android:text="Who is Santa Claus?"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/one"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/sansita_italic"
+                android:text="Santa Claus, known in English as Santa Claus, also known as Saint Nicholas, is a saint believed to enter houses through chimneys on Christmas night and distribute gifts to children with his white hair, white beard, red costume and big belly that has become the symbol of Christmas tradition.
+\n Actually, this person we know as Santa Claus is a man named St. Nicholas, who was born into a Christian family. The year was 280 AD. At that time, Christianity was not legal in the Roman empire. However, Nicholas wanted to become a priest and worked hard for it, and he was imprisoned because of his beliefs. After a while, Christianity was legalized by Emperor Constantine and Nicholas was elected bishop of the town of Myra.
+
+\nThere are many stories about St. Nicholas, but the most famous of them is how stockings began to be hung to put gifts in it.
+\nThe birthplace of Santa Claus is the Patara village, now called Demre, in Antalya, Turkey.
+\n It’s said that Santa Claus lived with his wife in the North Pole and spent the whole year making toys with the help of his elves.
+
+It’s believed that he receives letters from children asking for Christmas gifts. On Christmas Eve, he loads toys on his sleigh and goes all over the world on a sled pulled by eight reindeer and stops at every house. He slides down the chimneys of the houses and leaves the presents. He happily eats the cookies and milk left by the children of the house for him. Then he jumps on his sled and continues his journey."
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_above="@id/rl1"
+        android:scaleType="fitXY"
+        android:src="@drawable/three_gift" />
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/native_ads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

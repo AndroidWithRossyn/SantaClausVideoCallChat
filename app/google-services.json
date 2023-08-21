@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "378041603821",
+    "project_id": "meetsanta-fc115",
+    "storage_bucket": "meetsanta-fc115.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378041603821:android:b0db53c602c82f7cb95ee4",
+        "android_client_info": {
+          "package_name": "com.ide.santavideocall.kidsfunjoy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378041603821-getc1l8hgc6tbe4askau88s8aqul9htp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ide.santavideocall.kidsfunjoy",
+            "certificate_hash": "d21add4b8a9a3bb96e6421668b6481a72061701f"
+          }
+        },
+        {
+          "client_id": "378041603821-sl63ut579tp3ibuda9jklcn0orq6k2mt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_5_jOGq8CvKc7toBVejC_mlxsjdyEe0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378041603821-sl63ut579tp3ibuda9jklcn0orq6k2mt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378041603821:android:e7d0c16566750069b95ee4",
+        "android_client_info": {
+          "package_name": "com.idefun.christmaschildren.videochatplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378041603821-sl63ut579tp3ibuda9jklcn0orq6k2mt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_5_jOGq8CvKc7toBVejC_mlxsjdyEe0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378041603821-sl63ut579tp3ibuda9jklcn0orq6k2mt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378041603821:android:626326fb5c8bef4fb95ee4",
+        "android_client_info": {
+          "package_name": "com.santaxmaside.celebratefestide.kidsfunjoyide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378041603821-sl63ut579tp3ibuda9jklcn0orq6k2mt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_5_jOGq8CvKc7toBVejC_mlxsjdyEe0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378041603821-sl63ut579tp3ibuda9jklcn0orq6k2mt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

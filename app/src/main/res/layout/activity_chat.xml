@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:sweet="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/christmas_tree"
+    android:clipToPadding="false"
+    tools:context=".activity.ChatActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="fill_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_marginTop="22dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            sweet:popupTheme="@style/ThemeOverlay.AppCompat.Dark">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="?actionBarSize">
+
+                <RelativeLayout
+                    android:id="@+id/conversation_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/abc_action_bar_up_description">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/chat_btn_img"
+                        android:layout_width="40.0dip"
+                        android:layout_height="40.0dip"
+                        android:src="@drawable/santa_1_circulo" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="18.0dip"
+                        android:layout_height="18.0dip"
+                        android:layout_marginLeft="25.0dip"
+                        android:layout_marginTop="25.0dip"
+                        android:src="@drawable/online_icon" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/conversation_image"
+                    android:orientation="vertical"
+                    android:paddingLeft="4.0dip"
+                    android:paddingTop="0.0dip"
+                    android:paddingRight="0.0dip"
+                    android:paddingBottom="2.0dip">
+
+                    <TextView
+                        android:id="@+id/nameTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0.0dip"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="6.0dip"
+                        android:layout_weight="0.6"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="Santa Claus"
+                        android:textColor="@android:color/white"
+                        android:textSize="18.0sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/lastSeenTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0.0dip"
+                        android:layout_marginLeft="6.0dip"
+                        android:layout_weight="0.4"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="Active Now"
+                        android:textColor="@android:color/white"
+                        android:textSize="12.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/img_call"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_toLeftOf="@+id/img_chat_refresh"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/img_chat_refresh"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/refresh" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl1"
+        android:layout_below="@id/rl2">
+
+        <RelativeLayout
+            android:id="@+id/relative_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/linear_msg"
+            android:layout_marginTop="7.0dip">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_msg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <include
+                layout="@layout/fragment_chat_new"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/native_ads1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

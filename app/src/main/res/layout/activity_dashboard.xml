@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dash"
+    tools:context=".activity.DashboardActivity">
+
+
+    <ImageView
+        android:id="@+id/mrs_claus"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:padding="2dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/mrs_claus" />
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gift_box"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:padding="2dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/gift_box" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl1">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/toolbar1"
+            android:background="@android:color/transparent">
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/video_call"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:padding="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/video_call_img" />
+
+                <ImageView
+                    android:id="@+id/chat"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:padding="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/chat_img" />
+
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent">
+
+            <LinearLayout
+                android:id="@+id/ll2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/voice_call"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:elevation="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/voice_call_img" />
+
+                <ImageView
+                    android:id="@+id/advice"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:padding="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/advice_img" />
+
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/native_ads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

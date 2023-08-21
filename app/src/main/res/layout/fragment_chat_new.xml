@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:sweet="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/chat_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginBottom="20dp"
+        android:weightSum="5.0">
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="7.0dip"
+            android:layout_weight="4.2"
+            android:background="@drawable/rect_round"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/txt_view_msg_txt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:hint="Type a Message"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9.0dip"
+            android:layout_marginRight="6.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/send_msg_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:minWidth="10dp"
+                android:minHeight="10dp"
+                android:src="@drawable/ic_send"
+                sweet:backgroundTint="@color/green_tab"
+                sweet:fabSize="mini"
+                app:tint="@color/white"
+                sweet:rippleColor="@color/green_tab_dark" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

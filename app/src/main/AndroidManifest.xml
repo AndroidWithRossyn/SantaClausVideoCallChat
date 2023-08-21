@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ide.santavideocall.kidsfunjoy" >
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission
+        android:name="android.permission.CAPTURE_AUDIO_OUTPUT"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:requestLegacyExternalStorage="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:largeHeap="true"
+        android:theme="@style/Theme.SantaClausVideoCallChat"
+        tools:targetApi="31" >
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.activity.MrsSantaChatActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.activity.PlayMrsSantaAudioCallActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.activity.RejectMrsSantaAudioCallActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.activity.MrsSantaRejectVideoCallActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.activity.PlayMrsSantaVideoCallActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.activity.ChristmasActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.activity.ExitActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.activity.AdviceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.activity.ThopThankUActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.Christmas.FourActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.Christmas.ThreeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.Christmas.TwoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.Christmas.OneActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.activity.ChatActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustPan" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.play.PlayAudioFourActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.reject.RejectAudioCallFourActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.play.PlayAudioCallTwoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.reject.RejectAudioCallTwoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.play.PlayAudioCallOneActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.reject.RejectAudioCallOneActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.play.PlayAudioCallActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.reject.RejectAudioCallActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.activity.VoiceMeetingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.play.PlayVideoCallActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.reject.RejectVideoCallActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.play.PlayVideoThreeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.reject.RejectVideoCallThreeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.play.PlayVideoNewTwoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.reject.RejectVideoCallTwoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.play.PlayVideoOneActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.reject.RejectVideoCallOneActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.activity.TimerActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.activity.VideoMeetingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.activity.PrivacyPolicyActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.activity.DashboardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.activity.FirstLoadingPageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ide.santavideocall.kidsfunjoy.activity.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

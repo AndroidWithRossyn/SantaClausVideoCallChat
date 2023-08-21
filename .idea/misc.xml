@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/AdsSdk/src/main/res/layout/activity_ads_splash.xml" value="0.37447916666666664" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/AdsSdk/src/main/res/layout/ad_progress_dialog.xml" value="0.37447916666666664" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/AdsSdk/src/main/res/layout/ads_nativ_admob.xml" value="0.37447916666666664" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/AdsSdk/src/main/res/layout/ads_nativ_admob_extra_small.xml" value="0.37447916666666664" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/AdsSdk/src/main/res/layout/ads_nativ_admob_small.xml" value="0.37447916666666664" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/AdsSdk/src/main/res/layout/ads_nativ_fb.xml" value="0.37447916666666664" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/AdsSdk/src/main/res/layout/cust_native.xml" value="0.37447916666666664" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/drawable-v24/bg_white_corner_round.xml" value="0.2295" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/drawable-v24/cadr_recieve_msg.xml" value="0.2295" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/drawable-v24/card_recieve.xml" value="0.202" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/drawable-v24/circle_shape.xml" value="0.2295" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/drawable-v24/ic_back.xml" value="0.2295" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/drawable-v24/rect_round.xml" value="0.2295" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/drawable/card_recieve.xml" value="0.2565" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/drawable/chat_santa.xml" value="0.2565" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/drawable/checked_chckbox.xml" value="0.2565" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/drawable/correct_black.xml" value="0.2565" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/drawable/dialog_part.xml" value="0.2565" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/drawable/phone_santa.xml" value="0.2565" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/drawable/video_santa.xml" value="0.2565" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_advice.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_chat.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_christmas.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_dashboard.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_exit.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_first_loading_page.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_four.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_main.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_mrs_santa_chat.xml" value="0.37447916666666664" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_mrs_santa_reject_video_call.xml" value="0.37447916666666664" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_one.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_play_audio_call.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_play_audio_call_one.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_play_audio_call_two.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_play_audio_four.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_play_mrs_santa_audio_call.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_play_mrs_santa_video_call.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_play_video_call.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_play_video_new_two.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_play_video_one.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_play_video_three.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_privacy_policy.xml" value="0.33" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_reject_audio_call.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_reject_audio_call_four.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_reject_audio_call_one.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_reject_audio_call_two.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_reject_mrs_santa_audio_call.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_reject_video_call.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_reject_video_call_one.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_reject_video_call_three.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_reject_video_call_two.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_splash.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_thop_thank_uactivity.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_three.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_timer.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_two.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_video_meeting.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_voice_meeting.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/activity_vpnactivity.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/card_view_chat_msg_me.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/card_view_chat_msg_you.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/dialog_audio.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/fragment_chat_new.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/installnewappdialog.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/layout_country_list.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/layout_server_fragmnet.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/santa_claus_cardview.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/vpn_dialog.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/SantaClausVideoCallChat/app/src/main/res/layout/z1_ads_loading_dialog_inter.xml" value="0.3697916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
